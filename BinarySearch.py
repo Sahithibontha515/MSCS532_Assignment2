@@ -49,6 +49,7 @@ results = {
     "random_dataset":test_binary_search_on_data(random_data,target)
 }
 
+print("Data set size ",n)
 for typedata, metrics in results.items():
     print(f"--- {typedata} Dataset ---")
     print(f"Found: {metrics['is_Element_found']} at index: {metrics['target_index']}")
